@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//Function to add two matrix
 void AddTwoMatrix(int mat1[2][2],int mat2[2][2],int mat3[2][2],int size){
     for(int i=0;i<size;i++){
         for(int j=0;j<size;j++){
