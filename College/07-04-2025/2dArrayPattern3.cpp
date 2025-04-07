@@ -1,10 +1,10 @@
 /*
 print
 
-10 36 54 60 
-         67
-         65
-         62
+10 36 54 60
+12       67
+18       65
+19 32 55 62
 
 
 */
@@ -22,6 +22,9 @@ int main(){
     for(int i = 0; i < 4; i++){
         for(int j = 0; j < 4; j++){
             if(i == 0 || j == 3){
+                cout << arr[i][j] << " ";
+            }
+            else if( i == 3 || j == 0){
                 cout << arr[i][j] << " ";
             } else {
                 cout << "   "; // spacing for alignment
