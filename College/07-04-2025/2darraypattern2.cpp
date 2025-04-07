@@ -1,3 +1,13 @@
+/*
+print
+
+10 36 54 60 
+         67
+         65
+         62
+
+         
+*/
 #include<iostream>
 using namespace std;
 
