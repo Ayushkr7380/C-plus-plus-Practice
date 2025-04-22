@@ -6,6 +6,7 @@ class BankAccout{
         string accountHolderName;
         float balance;
 
+        //kisi v member ko initial value dene k liye constructor ka use krte hai.
         BankAccout(int accountNumber,string accountHolderName,float balance){
             this->accountNumber = accountNumber;
             this->accountHolderName = accountHolderName;
