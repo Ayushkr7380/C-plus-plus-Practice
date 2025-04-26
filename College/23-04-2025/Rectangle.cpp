@@ -4,9 +4,12 @@ class Rectangle{
     public:
         int l;
         int b;
+        //Constructor to print area of rectangle.
         Rectangle(float l,float b){
             cout<<"Area "<<l*b<<endl;
         }
+
+        //Constructor to print preimeter of rectangle.
         Rectangle(int l,int b){
             cout<<"Perimeter : "<<2*(l+b)<<endl;
         }
